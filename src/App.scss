@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap');
+// *{
+//  padding: 0;
+//  margin: 0;
+//  box-sizing: border-box;
+//  font-family: 'Josefin Sans', sans-serif;
+// }
+body{
+    background-color: rgb(24,19,53);
+}
+// .navall{
+//     background-color: rgb(18,12,34);
+//     display: flex;
+//     justify-content: center;
+//     min-height: 140px;
+// }
+// .nav a{
+//     color: white;
+//     text-decoration: none;
+//     font-size: 18px;
+// }
+// .nav h2{
+//     color: white;
+//     font-size: 45px;
+// }
+// .nav{
+//     display: flex;
+//     justify-content: space-between;
+//     width: 90vw;
+//     height: 15vh;
+//     align-items: center;
+// }
+// .list{
+//     display: flex;
+//     width: 10vw;
+//     justify-content: space-between;
+// }
+// .logo span{
+//     color: #ff0252ce;
+// }
+// .nav a:hover{
+// color:#ff0252ce;
+// }
+// .movies_body{
+//     width: 95vw;
+//     display: flex;
+//     justify-content: center;
+//     margin: auto;
+// }
+// .movies{
+//     display: flex;
+//     flex-wrap: wrap;
+//     width: 95vw;
+//     justify-content: space-around;
+// }
+// .movie_card{
+//  width: 18vw;
+//  display: flex;
+//  flex-direction: column;
+// //  border: rgb(18,12,34) 3px solid ;
+//  background-color: rgb(18,12,34);
+//  border-radius: 10px;
+//  margin-bottom: 15px;
+// }
+// .movie_card:hover{
+//     background-color: #ff0252ce;
+//     // border-color: #ff0252ce;
+// }
+// .movie_card img{
+//     padding-top: 10px;
+//     display: flex;
+//     margin: auto;
+//     border-radius: 25px;
+//     width: 15vw;
+// }
+// .text{
+//     align-items: center;
+//     justify-content: space-evenly;
+//     margin: auto;
+//     text-align: center;
+//     height:17vh;
+//     display:flex;
+//     flex-direction: column;
+// }
+// .text p{
+//     color: white;
+//     font-size: 15px;
+//     padding-top: 10px;
+// }
+// .language{
+//     padding-bottom: 5px;
+// }
+// .foot span{
+//     color: #ff0252ce;
+// }
+// .foot{
+//     color: white;
+//     height: 140px;
+//     width: 100%;
+//     background-color: rgb(18,12,34);
+//     text-align: center;
+//     font-size: 40px;
+//     display: flex;
+//     justify-content: center;
+// }
+// .foot h2{
+//     align-items: center;
+//     display: flex;
+// }
+// .header1 h1{
+//     color: white;
+// }
+// .header1{
+//     display: flex;
+//     justify-content: center;
+// }
+// .email{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     text-align: center;
+// }
+// .password{
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     text-align: center;
+// }
+// .email input  , .password input {
+//     width: 40vw;
+//     margin: auto;
+//     text-align: center;
+//     height: 6vh;
+//     color: rgb(18,12,34);
+//     font-size: 18px;
+//     border-radius: 10px;
+//     border: solid white 0px;
+// }
+// label{
+//     color: white;
+//     font-size: 20px;
+// }
+// .sumbit input{
+//     margin: auto;
+//     display: flex;
+//     color: white;
+//     background-color: #ff0252ce;
+//     width: 10vw;
+//     height: 5vh;    
+//     justify-content: center;
+//     border-radius: 10px;
+//     border-color:#ff0252ce;
+// }
+// .body1{
+//     height: 80vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .form_body{
+//     background-color: rgb(18,12,34);
+//     height: 70vh;
+//     width: 45vw;
+//     border-radius: 20px;
+// }
+// .text a{
+//     text-decoration: none;
+//     background-color: rgb(24, 19, 53);
+//     padding:5px 15px;
+//     color:white;
+//     border-radius: 10px;
+// }
+// .text a:hover{
+//     background-color: rgb(18, 12, 34);
+// }
+// .errorpage{
+//     height: 100vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .error{
+//     height: 75vh;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-evenly;
+//     align-items: center;
+// }
+// .error h1{
+//     color: white;
+//     font-size: 50px;
+// }
+// .error span{
+//     color: #ff0252ce;
+// }
+// .error h2{
+//     color: white;
+//     font-size: 150px;
+// }
+// .error p{
+//     color: white;
+//     font-size: 25px;
+// }
+// .error a{
+//     padding: 15px 25px;
+//     color: white;
+//     background-color: rgb(18, 12, 34);
+//     text-decoration: none;
+//     border-radius: 15px;
+//     text-align: center;
+//     font-size: 20px;
+// }
+// .error a:hover{
+// background-color: #ff0252ce;
+// }
+// @media only screen and (max-width:1000px){
+//     .list{
+//         width: 15vw;
+//     }
+// }
+// @media only screen and (max-width:750px){
+//     .nav{
+//         flex-direction: column;
+//         justify-content: space-around;
+//         height: 27vh;
+//     }
+//     .list{
+//         flex-direction: column;
+//         align-items: center;
+//         height: 9vh;
+//     }
+
+// }
+// @media only screen and (max-width:500px){
+//     .movies{
+//         flex-direction: column;
+//         align-items: center;
+//     }
+//     .movie_card{
+//         width: 60vw;
+//     }
+//     .movie_card img{
+//         width: 45vw;
+//     }
+//     .foot h2{
+//         font-size: 45px;
+//     }
+// }
+
+// // .film_page{
+// //     // margin-top: 20px;
+// //     width: 40vw;
+// //     margin: 30px auto;
+// //     // height: calc(100vh - 280px);
+// // }
+
+// // .movie_container{
+// //     background-color: rgb(18, 12, 34);
+// //     padding: 30px;
+// //     border-radius: 20px;
+// // }
+
+// // .header{
+// //     display: flex;
+// //     align-items: center;
+// //     // flex-wrap: wrap;
+// // }
+
+// // .filmpage{
+// //     min-height: 100vh;
+// //     display: flex;
+// //     flex-direction: column;
+// //     justify-content: space-between;
+// // }
+
+// // .text-card{
+// //     margin-left: 20px;
+// //     color: white;
+// //     h2{
+// //         text-transform: uppercase;
+// //         font-size: 25px;
+// //         margin-bottom: 20px;
+// //     }
+// //     p{
+// //         margin: 10px 0;
+// //         font-size: 18px;
+// //     }
+// //     a{
+// //         display: block;
+// //         width: fit-content;
+// //         margin: 20px 0 0 0;
+// //         text-decoration: none;
+// //         background-color: rgb(24, 19, 53);
+// //         padding: 10px 25px;
+// //         color: white;
+// //         border-radius: 10px;
+// //         &:hover{
+// //             background-color:#ff0252ce;
+// //         }
+// //     }
+// // }
+
+// // .summary{
+// //     line-height: 1.5;
+// // }
+
+
+// // .summary{
+// //     margin-top: 20px;
+// //     color: white;
+// //     font-size: 18px;
+// // }
+// .movie_container{
+//     margin: 0 auto;
+//     width: 90vw;
+//     background-color: black;
+// }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
